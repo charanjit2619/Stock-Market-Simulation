@@ -79,7 +79,7 @@ bool OSet_Ints::contains(int i ){
 void OSet_Ints::display(){
     struct Node* temp = head;
     if (!temp){
-        cout << "empty list" << endl ;
+        cout << "empty list " << endl ;
         return;
     }
     while(temp){
